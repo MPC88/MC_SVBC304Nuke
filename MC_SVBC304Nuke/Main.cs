@@ -83,7 +83,7 @@ namespace MC_SVBC304Nuke
             equipment.activated = true;
             equipment.enableChangeKey = true;
             equipment.space = 10;
-            equipment.energyCost = 800;
+            equipment.energyCost = energyCost;
             equipment.energyCostPerShipClass = false;
             equipment.rarityCostMod = 0.8f;
             equipment.techLevel = 40;
