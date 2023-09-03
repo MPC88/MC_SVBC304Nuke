@@ -212,7 +212,8 @@ namespace MC_SVBC304Nuke
             public AE_MCNuke()
             {
                 this.targetIsSelf = true;
-                this.saveState = false;
+                this.saveState = true;
+                this.saveCooldownID = id;
                 this.cooldownTime = cooldown;                
             }
 
